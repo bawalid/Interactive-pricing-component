@@ -68,7 +68,7 @@ header p {
 }
 
 /* || Card */
-section {
+main {
   background: var(--ComponentBackground);
   border-radius: 0.75rem;
   padding: 2.5rem 1rem;
@@ -78,7 +78,7 @@ section {
 }
 
 /* ||--Card Title Page views */
-section h2 {
+main h2 {
   color: var(--Text);
   font-size: 0.8rem;
   font-weight: lighter;
@@ -295,7 +295,7 @@ section h2 {
 }
 
 /* ||Card--Start Trial Button */
-section button {
+main button {
   padding: 1rem 3rem;
   background: var(--TextBackground);
   border: none;
@@ -309,7 +309,7 @@ section button {
   transition: color 0.7s;
 }
 
-section button:hover {
+main button:hover {
   color: var(--ComponentBackground);
 }
 
@@ -326,7 +326,7 @@ section button:hover {
     font-size: 1rem;
   }
 
-  section {
+  main {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
@@ -345,7 +345,7 @@ section button:hover {
     padding-bottom: 0;
   }
 
-  section h2 {
+  main h2 {
     grid-area: pageviews;
     text-align: left;
   }
@@ -367,7 +367,7 @@ section button:hover {
     grid-area: checklist;
   }
 
-  section button {
+  main button {
     grid-area: button;
     padding: 1rem 2rem;
     width: 70%;
@@ -399,7 +399,7 @@ section button:hover {
 }
 
 @media screen and (min-width: 1080px) {
-  section h2 {
+  main h2 {
     -ms-grid-row: 1;
     -ms-grid-column: 1;
   }
@@ -426,7 +426,7 @@ section button:hover {
     -ms-grid-column: 1;
   }
 
-  section button {
+  main button {
     -ms-grid-row: 4;
     -ms-grid-column: 2;
   }
