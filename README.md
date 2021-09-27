@@ -46,7 +46,7 @@ If the visitor switches the toggle to yearly billing, a 25% discount should be a
 ### Links
 
 - Solution URL: (https://github.com/bawalid/Interactive-pricing-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://interactive-pricing-component-flax-nine.vercel.app/)
 
 ## My process
 
