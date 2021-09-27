@@ -9,28 +9,28 @@
   <title>Frontend Mentor | Interactive pricing component</title>
 </head>
 <body>
-  <header role="heading">
+  <header>
     <h1>Simple, traffic-based pricing</h1>
     <p>Sign-up for our 30-day trial. No credit card required. </p>
   </header>
 
-  <section role="tab">
+  <section>
     <h2><span id="pageViews"></span> Pageviews</h2>
     <div class="slider">
       <div id="slider-background"></div>
       <div id="progress-background"></div>
-      <input type="range" name="page-views" id="page-views" min="0" max="20" step="5" value="10" role="slider">
+      <input type="range" name="page-views" id="page-views" min="0" max="20" step="5" value="10">
     </div>
     <p class="price"><span id="pricing"></span> <span id="period">/month</span></p>
     <div id="period-select">
       <p>Monthly Billing</p>
       <label for="period-radio" class="period-check">
-        <input type="checkbox" name="period-radio" id="period-radio" role="checkbox">
+        <input type="checkbox" name="period-radio" id="period-radio">
         <span class="period-slider"></span>
       </label>
       <p>Yearly Billing <span class="discount-mobile">-25%</span><span class="discount-desktop">25% discount</span></p>
     </div>
-    <ul id="check-list" role="list">
+    <ul id="check-list">
       <li><div class="check"></div>Unlimited websites</li>
       <li><div class="check"></div>100% data ownership</li>
       <li><div class="check"></div>Email reports</li>
