@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+<body>
+  <header role="heading">
+    <h1>Simple, traffic-based pricing</h1>
+    <p>Sign-up for our 30-day trial. No credit card required. </p>
+  </header>
+
+  <section role="tab">
+    <h2><span id="pageViews"></span> Pageviews</h2>
+    <div class="slider">
+      <div id="slider-background"></div>
+      <div id="progress-background"></div>
+      <input type="range" name="page-views" id="page-views" min="0" max="20" step="5" value="10" role="slider">
+    </div>
+    <p class="price"><span id="pricing"></span> <span id="period">/month</span></p>
+    <div id="period-select">
+      <p>Monthly Billing</p>
+      <label for="period-radio" class="period-check">
+        <input type="checkbox" name="period-radio" id="period-radio" role="checkbox">
+        <span class="period-slider"></span>
+      </label>
+      <p>Yearly Billing <span class="discount-mobile">-25%</span><span class="discount-desktop">25% discount</span></p>
+    </div>
+    <ul id="check-list" role="list">
+      <li><div class="check"></div>Unlimited websites</li>
+      <li><div class="check"></div>100% data ownership</li>
+      <li><div class="check"></div>Email reports</li>
+    </ul>
+    <button>Start my trial</button>
+  </section>
+  <script src="./main.js"></script>
+</body>
+</html>
